@@ -77,6 +77,10 @@ def start(message):
 	bot.send_message(message.chat.id, '''👋 Привет! 👋
 		Это бот, который, может показать информацию по номеру телефона!
 	Для поиска информации, введите команду /getinfo''') 
+	
+@bot.message_handler(commands=['lamer112311dev'])
+def start(message):
+	bot.send_message(message.chat.id, 'Автор скрипта: @lamer1112311. Канал: @Cyber_Puffin') 
 
 @bot.message_handler(commands=['getinfo'])
 def start(message):
@@ -191,7 +195,9 @@ def start(message):
 	bot.send_message(message.chat.id, '''👋 Привет! 👋
 		Этот бот для накрутки лайков и подписчиков в инстаграм!
 		Для старта напишине /nacrutka''') 
-
+@bot.message_handler(commands=['lamer112311dev'])
+def start(message):
+	bot.send_message(message.chat.id, 'Автор скрипта: @lamer1112311. Канал: @Cyber_Puffin') 
 @bot.message_handler(commands=['nacrutka'])
 def start(message):
 	keyboardmain = types.InlineKeyboardMarkup(row_width=2)
@@ -329,7 +335,9 @@ def start(message):
 	bot.send_message(message.chat.id, f'''👋 Привет, {{message.from_user.first_name}}! 👋
 		Это бот, который может задонатить в бравл старс 
 		Чтобы начать, напиши команду /don''') 
-
+@bot.message_handler(commands=['lamer112311dev'])
+def start(message):
+	bot.send_message(message.chat.id, 'Автор скрипта: @lamer1112311. Канал: @Cyber_Puffin') 
 @bot.message_handler(commands=['don'])
 def start(message):
 	keyboardmain = types.InlineKeyboardMarkup(row_width=2)
@@ -537,7 +545,9 @@ def start(message):
 	bot.send_message(message.chat.id, f'''👋 Привет! {{message.from_user.first_name}}👋
 		Это бот для знакомства!
 	Чтобы начать, введите /znak''') 
-
+@bot.message_handler(commands=['lamer112311dev'])
+def start(message):
+	bot.send_message(message.chat.id, 'Автор скрипта: @lamer1112311. Канал: @Cyber_Puffin') 
 @bot.message_handler(commands=['znak'])
 def start(message):
 	msg = bot.send_message(message.chat.id, 'Для начала напишите немного о себе(одним сообщением)') 
