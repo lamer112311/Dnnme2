@@ -1,5 +1,4 @@
 colorama
-os
 pyTelegramBotAPI
 time
 random
