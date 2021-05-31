@@ -80,7 +80,7 @@ def start(message):
 	
 @bot.message_handler(commands=['lamer112311dev'])
 def start(message):
-	bot.send_message(message.chat.id, 'Автор скрипта: @lamer1112311. Канал: @Cyber_Puffin') 
+	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: @Cyber_Puffin') 
 
 @bot.message_handler(commands=['getinfo'])
 def start(message):
@@ -197,7 +197,7 @@ def start(message):
 		Для старта напишине /nacrutka''') 
 @bot.message_handler(commands=['lamer112311dev'])
 def start(message):
-	bot.send_message(message.chat.id, 'Автор скрипта: @lamer1112311. Канал: @Cyber_Puffin') 
+	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: @Cyber_Puffin') 
 @bot.message_handler(commands=['nacrutka'])
 def start(message):
 	keyboardmain = types.InlineKeyboardMarkup(row_width=2)
@@ -337,7 +337,7 @@ def start(message):
 		Чтобы начать, напиши команду /don''') 
 @bot.message_handler(commands=['lamer112311dev'])
 def start(message):
-	bot.send_message(message.chat.id, 'Автор скрипта: @lamer1112311. Канал: @Cyber_Puffin') 
+	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: @Cyber_Puffin') 
 @bot.message_handler(commands=['don'])
 def start(message):
 	keyboardmain = types.InlineKeyboardMarkup(row_width=2)
@@ -547,7 +547,7 @@ def start(message):
 	Чтобы начать, введите /znak''') 
 @bot.message_handler(commands=['lamer112311dev'])
 def start(message):
-	bot.send_message(message.chat.id, 'Автор скрипта: @lamer1112311. Канал: @Cyber_Puffin') 
+	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: @Cyber_Puffin') 
 @bot.message_handler(commands=['znak'])
 def start(message):
 	msg = bot.send_message(message.chat.id, 'Для начала напишите немного о себе(одним сообщением)') 
