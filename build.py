@@ -29,7 +29,7 @@ print(Fore.RED + '''
 
 
 	''')
-input(Fore.GREEN + "Нажмине Enter")
+input(Fore.GREEN + "Нажмите Enter")
 os.system('clear')
 print(Fore.MAGENTA + ' _____    _   _   _   _ ' + Fore.YELLOW + ' __  __   ______ ')
 print(Fore.MAGENTA + '|  __ \  | \ | | | \ | |' + Fore.YELLOW + '|  \/  | |  ____|')
