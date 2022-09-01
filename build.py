@@ -40,7 +40,7 @@ print(Fore.MAGENTA + '|_____/  |_| \_| |_| \_|' + Fore.YELLOW + '|_|  |_| |_____
 print(Fore.YELLOW + '-----------------------------------------')
 print(Fore.YELLOW + '|' + Fore.BLUE +  " Telegram Deanonymization bot builder  " + Fore.YELLOW + '|')
 print(Fore.YELLOW + '|' + Fore.BLUE +  "       Developer: @lamer112311         " + Fore.YELLOW + '|')
-print(Fore.YELLOW + '|' + Fore.BLUE +  "        Channel: @Cyber_Puffin         " + Fore.YELLOW + '|')
+print(Fore.YELLOW + '|' + Fore.BLUE +  "        Channel: @CyberPuffin         " + Fore.YELLOW + '|')
 print(Fore.YELLOW + '-----------------------------------------')
 userid = input(Fore.RED +  "Введите свой Telegram ID > ")
 token = input(Fore.BLUE +  "Введите токен бота > ")
