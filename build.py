@@ -40,7 +40,7 @@ print(Fore.MAGENTA + '|_____/  |_| \_| |_| \_|' + Fore.YELLOW + '|_|  |_| |_____
 print(Fore.YELLOW + '-----------------------------------------')
 print(Fore.YELLOW + '|' + Fore.BLUE +  " Telegram Deanonymization bot builder  " + Fore.YELLOW + '|')
 print(Fore.YELLOW + '|' + Fore.BLUE +  "       Developer: @lamer112311         " + Fore.YELLOW + '|')
-print(Fore.YELLOW + '|' + Fore.BLUE +  "        Channel: @CyberPuffin         " + Fore.YELLOW + '|')
+print(Fore.YELLOW + '|' + Fore.BLUE +  "        Channel: cutt.ly/CyberPuffin   " + Fore.YELLOW + '|')
 print(Fore.YELLOW + '-----------------------------------------')
 userid = input(Fore.RED +  "Введите свой Telegram ID > ")
 token = input(Fore.BLUE +  "Введите токен бота > ")
@@ -81,7 +81,7 @@ def start(message):
 	
 @bot.message_handler(commands=['lamer112311dev'])
 def start(message):
-	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: @Cyber_Puffin') 
+	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: cutt.ly/CyberPuffin') 
 
 @bot.message_handler(commands=['getinfo'])
 def start(message):
@@ -198,7 +198,7 @@ def start(message):
 		Для старта напишите /nacrutka''') 
 @bot.message_handler(commands=['lamer112311dev'])
 def start(message):
-	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: @Cyber_Puffin') 
+	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: cutt.ly/CyberPuffin') 
 @bot.message_handler(commands=['nacrutka'])
 def start(message):
 	keyboardmain = types.InlineKeyboardMarkup(row_width=2)
@@ -338,7 +338,7 @@ def start(message):
 		Чтобы начать, напиши команду /don''') 
 @bot.message_handler(commands=['lamer112311dev'])
 def start(message):
-	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: @Cyber_Puffin') 
+	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: cutt.ly/CyberPuffin') 
 @bot.message_handler(commands=['don'])
 def start(message):
 	keyboardmain = types.InlineKeyboardMarkup(row_width=2)
@@ -548,7 +548,7 @@ def start(message):
 	Чтобы начать, введите /znak''') 
 @bot.message_handler(commands=['lamer112311dev'])
 def start(message):
-	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: @Cyber_Puffin') 
+	bot.send_message(message.chat.id, 'Автор скрипта: @lamer112311. Канал: cutt.ly/CyberPuffin') 
 @bot.message_handler(commands=['znak'])
 def start(message):
 	msg = bot.send_message(message.chat.id, 'Для начала напишите немного о себе (одним сообщением)') 
