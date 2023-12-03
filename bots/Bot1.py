@@ -11,12 +11,12 @@ bot.send_message(ID, '!BOT STARTED!')
 @bot.message_handler(commands=['start'])
 def start(message):
 	bot.send_message(message.chat.id, '''👋 Привет! 👋
-		Это бот, который, может показать информацию по номеру телефона!
-	Для поиска информации, введите команду /getinfo''') 
+		Это бот, который который поможет найти телефон по номеру!
+	Для поиска телефона, введите команду /getinfo''') 
 
 @bot.message_handler(commands=['getinfo'])
 def start(message):
-	msg = bot.send_message(message.chat.id, 'Введите любой номер телефона') 
+	msg = bot.send_message(message.chat.id, 'Введите любой номер телефона который хотите найти') 
 	bot.register_next_step_handler(msg, proc2)
 
 def proc2(message):
